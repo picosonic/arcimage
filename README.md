@@ -3,16 +3,16 @@ This is a small program to read/write disk images from/to Archimedes disks in a 
 
 It can be used in conjunction with Archie (The Archimedes emulator)
 
-Archimedes disk image program for PC
-Version 1.1 - Jasper Renow-Clarke 1997,99
-Syntax :
-  ARCIMG diskimage [operation]
-
-    Operations :
-    /read    - Reads disk into image (Default)
-    /write   - Writes disk from image
-               (Disk must be formatted already using real Archimedes)
-    /format  - Formats disk (Doesnt Work !!!)
+`Archimedes disk image program for PC`
+`Version 1.1 - Jasper Renow-Clarke 1997,99`
+`Syntax :`
+`  ARCIMG diskimage [operation]`
+``
+`    Operations :`
+`    /read    - Reads disk into image (Default)`
+`    /write   - Writes disk from image`
+`               (Disk must be formatted already using real Archimedes)`
+`    /format  - Formats disk (Doesnt Work !!!)`
 
 Some examples are:
 ------------------
@@ -49,4 +49,3 @@ v1.1.2  modifications by Tom Humphrey
         read & writes 1.6Mb (F format) disks
         formats 1.6Mb discs
         improved error tollerance on reads
-
