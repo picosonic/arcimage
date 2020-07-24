@@ -17,16 +17,16 @@ It can be used in conjunction with Archie (The Archimedes emulator)
 Some examples are:
 ------------------
 
-*  Read an Archi D/E format floppy into a disk image
+-  Read an Archi D/E format floppy into a disk image
 
   `arcimg c:\test.adf`
 
-*  Write an Archi D/E format floppy from a disk image
+-  Write an Archi D/E format floppy from a disk image
     *Note: The floppy must be preformatted on an Arc*
 
   `arcimg c:\games.adf /write`
 
-The "/format" option does not work, I'm not sure why perhaps I've done something silly, or missed something.
+The **"/format"** option does not work, I'm not sure why perhaps I've done something silly, or missed something.
 If you have any suggestions about how I can fix this then email me, and I'll put it right.
 
 If there are any read errors in creating a file from a disk, then the sectors are displayed in red, otherwise the currently being read sector is displayed, to give you a progress meter. One reason a sector can not be read is that it may be formatted differently for copy protection purposes.
@@ -45,7 +45,7 @@ You run this software entirely at your own risk.
 changelog
 ----------
 
-v1.1.2  modifications by Tom Humphrey
-        read & writes 1.6Mb (F format) disks
-        formats 1.6Mb discs
-        improved error tollerance on reads
+> v1.1.2  modifications by Tom Humphrey
+>>        read & writes 1.6Mb (F format) disks
+>>        formats 1.6Mb discs
+>>        improved error tollerance on reads
