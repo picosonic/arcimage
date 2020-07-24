@@ -14,6 +14,7 @@ It can be used in conjunction with Archie (The Archimedes emulator)
                  (Disk must be formatted already using real Archimedes)
       /format  - Formats disk (Doesnt Work !!!)
 
+
 Some examples are:
 ------------------
 
@@ -32,6 +33,8 @@ If you have any suggestions about how I can fix this then email me, and I'll put
 If there are any read errors in creating a file from a disk, then the sectors are displayed in red, otherwise the currently being read sector is displayed, to give you a progress meter. One reason a sector can not be read is that it may be formatted differently for copy protection purposes.
 
 I hope you find this useful, mail me with your comments/suggestions, your feedback is welcomed.
+
+In 2002, Donald Scott wrote a [guide](http://knowbody.org.uk/arcimage/) to using this software.
 
 ------------------
 
