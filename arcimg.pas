@@ -175,7 +175,7 @@ end;
 procedure ver;
 begin
   writeln(#13#10'Archimedes disk image program for PC');
-  writeln('Version 1.1 - Jasper Renow-Clarke 1997,99 (jasperr@osl1.co.uk)');
+  writeln('Version 1.1 - Jasper Renow-Clarke 1997,99');
 end;
 
 procedure show_syntax;

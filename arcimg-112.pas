@@ -275,7 +275,7 @@ end;
 procedure ver;
 begin
   writeln(#13#10'Archimedes disk image program for PC');
-  writeln('Version 1.1 - Jasper Renow-Clarke 1997,99 (jasperr@osl1.co.uk)');
+  writeln('Version 1.1 - Jasper Renow-Clarke 1997,99');
   writeln('Version 1.1.2 modified Tom Humphrey 2001 (t.humphrey@bigfoot.com)');
 end;
 
@@ -474,4 +474,3 @@ begin
 
  if arc_disk then done_arc_dsk;
 end.
-
