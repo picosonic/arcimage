@@ -17,14 +17,14 @@ Syntax :
 Some examples are:
 ------------------
 
-*  (Read an Archi D/E format floppy into a disk image)
+*  Read an Archi D/E format floppy into a disk image
 
-  arcimg c:\test.adf
+  `arcimg c:\test.adf`
 
-*  (Write an Archi D/E format floppy from a disk image,
-    [Note: The floppy must be preformatted on an Arc])
+*  Write an Archi D/E format floppy from a disk image
+    *Note: The floppy must be preformatted on an Arc*
 
-  arcimg c:\games.adf /write
+  `arcimg c:\games.adf /write`
 
 The "/format" option does not work, I'm not sure why perhaps I've done something silly, or missed something.
 If you have any suggestions about how I can fix this then email me, and I'll put it right.
